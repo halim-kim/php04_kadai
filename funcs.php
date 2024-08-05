@@ -10,12 +10,6 @@ function h($str){
 //DB接続
 function db_conn() {
 
-  // 本番環境↓のみコメントアウト解除
-  // $prod_db = "hatgpt_gs_kadai";
-  // $prod_host = "mysql643.db.sakura.ne.jp";
-  // $prod_id = "hatgpt";
-  // $prod_pw = "qwerty123";
-
   //ローカル環境↓のみコメントアウト解除
   $prod_db = "gs_db_kadai4";
   $prod_host = "localhost";
